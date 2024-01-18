@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ master ]
 
+workflow_dispatch:
+
 jobs:
   wiz-cli-iac-scan:
     name: 'Wiz-cli IaC Scan'

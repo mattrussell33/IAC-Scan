@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SCAN_PATH: "." # Set the relative path in the repo to scan
-      POLICY: "iac-fail-low"
+      POLICY: "Default IaC policy"
       WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
       WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
       #WIZ_ENV: ${{ secrets.WIZ_ENV }}
